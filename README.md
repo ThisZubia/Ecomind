@@ -1,8 +1,8 @@
-🌿 Project Title
+### Project Title
 
-EcoMind – AI-Powered Nature Therapy & Mental Wellness Platform
+# EcoMind – AI-Powered Nature Therapy & Mental Wellness Platform
 
-📌 Project Description
+## Project Description
 
 EcoMind is an AI-based mental wellness website inspired by the concept of nature therapy. The platform is designed to help users reduce stress, improve mood, and gain mental clarity by connecting them with nature-inspired wisdom through an intelligent AI companion.
 
@@ -16,7 +16,7 @@ Share their current mood or name to receive personalized guidance from the AI Na
 
 EcoMind focuses on delivering a peaceful, user-friendly experience using a clean green interface that reflects calmness, positivity, and mental balance.
 
-❓ Problem Statement
+## Problem Statement
 
 In today’s fast-paced digital lifestyle, people face:
 
@@ -42,7 +42,7 @@ Provides instant emotional support
 
 Combines technology with the healing power of nature
 
-💡 Solution
+## Solution
 
 EcoMind addresses these challenges by:
 
@@ -54,7 +54,7 @@ Delivering a calming and intuitive user interface
 
 Making mental wellness support accessible anytime, anywhere
 
-🚀 Key Features
+## Key Features
 
 Nature therapy themes and quotes
 
