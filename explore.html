@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoMind - Explore Nature Activities</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="../index.html">
+                <i class="bi bi-tree-fill me-2"></i>EcoMind
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="explore.html">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ai-companion.html">AI Companion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Wellness Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Explore Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h1 class="display-5 fw-bold text-success mb-3">Explore Nature Activities</h1>
+                    <p class="lead text-muted">Immerse yourself in the healing power of the natural world.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Activity Card 1: Forest Bathing -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card activity-card" data-bs-toggle="modal" data-bs-target="#forestBathingModal">
+                        <img src="../images/forest-bathing.jpg" class="card-img-top" alt="Forest Bathing">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Forest Bathing</h5>
+                            <p class="card-text text-muted">Rejuvenate your senses by mindfully immersing yourself in the forest atmosphere.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity Card 2: Ocean Sounds -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card activity-card" data-bs-toggle="modal" data-bs-target="#oceanSoundsModal">
+                        <img src="../images/ocean-sounds.jpg" class="card-img-top" alt="Ocean Sounds">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Ocean Sounds Meditation</h5>
+                            <p class="card-text text-muted">Find tranquility and calm through the rhythmic sounds of ocean waves.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activity Card 3: Stargazing -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card activity-card" data-bs-toggle="modal" data-bs-target="#stargazingModal">
+                        <img src="../images/stargazing.jpg" class="card-img-top" alt="Stargazing">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-success">Stargazing & Cosmic Connection</h5>
+                            <p class="card-text text-muted">Connect with the vastness of the universe and find perspective under the night sky.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more activity cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Activities -->
+    <!-- Forest Bathing Modal -->
+    <div class="modal fade" id="forestBathingModal" tabindex="-1" aria-labelledby="forestBathingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="forestBathingModalLabel">Forest Bathing (Shinrin-yoku)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/forest-bathing.jpg" class="img-fluid rounded mb-3" alt="Forest Bathing">
+                    <p>Originating in Japan, Shinrin-yoku, or "forest bathing," is the practice of spending time in forested areas for improved health, happiness, and a sense of calm. It's not about hiking or exercise, but rather about mindfully connecting with nature using all five senses.</p>
+                    <h6>Benefits:</h6>
+                    <ul>
+                        <li>Reduced stress and anxiety</li>
+                        <li>Improved mood</li>
+                        <li>Enhanced immune function</li>
+                        <li>Increased focus and clarity</li>
+                        <li>Deeper connection to nature</li>
+                    </ul>
+                    <p><strong>How to practice:</strong> Find a quiet spot in a forest or natural area. Turn off your phone. Walk slowly and deliberately, noticing the sights, sounds, smells, and textures around you. Breathe deeply and allow yourself to be present in the moment.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ocean Sounds Modal -->
+    <div class="modal fade" id="oceanSoundsModal" tabindex="-1" aria-labelledby="oceanSoundsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="oceanSoundsModalLabel">Ocean Sounds Meditation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/ocean-sounds.jpg" class="img-fluid rounded mb-3" alt="Ocean Sounds">
+                    <p>The rhythmic sounds of ocean waves have a profound calming effect on the human mind. This meditation practice involves focusing on these natural sounds to induce a state of deep relaxation and reduce mental chatter.</p>
+                    <h6>Benefits:</h6>
+                    <ul>
+                        <li>Stress reduction</li>
+                        <li>Improved sleep quality</li>
+                        <li>Enhanced relaxation</li>
+                        <li>Mindfulness and presence</li>
+                        <li>Natural white noise for focus</li>
+                    </ul>
+                    <p><strong>How to practice:</strong> Find a comfortable position. Close your eyes and focus on the sound of ocean waves. If you don't have access to a real ocean, use high-quality recordings. Allow the sounds to wash over you, letting go of any tension or thoughts.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stargazing Modal -->
+    <div class="modal fade" id="stargazingModal" tabindex="-1" aria-labelledby="stargazingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="stargazingModalLabel">Stargazing & Cosmic Connection</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/stargazing.jpg" class="img-fluid rounded mb-3" alt="Stargazing">
+                    <p>Stargazing offers a unique opportunity to connect with the vastness of the cosmos, fostering a sense of wonder, humility, and perspective. It can be a deeply meditative and calming experience.</p>
+                    <h6>Benefits:</h6>
+                    <ul>
+                        <li>Reduces feelings of insignificance</li>
+                        <li>Promotes mindfulness and awe</li>
+                        <li>Encourages contemplation and introspection</li>
+                        <li>Provides a sense of connection to something larger than oneself</li>
+                        <li>Can inspire creativity and curiosity</li>
+                    </ul>
+                    <p><strong>How to practice:</strong> Find a dark location away from city lights. Bring a blanket or chair. Lie back and simply observe the stars. Allow your mind to wander and reflect on the universe. Binoculars or a telescope can enhance the experience, but are not necessary.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-tree-fill me-2"></i>EcoMind
+                    </h5>
+                    <p class="text-muted">Promoting mental wellness through nature therapy.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">&copy; 2024 EcoMind. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
